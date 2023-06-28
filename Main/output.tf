@@ -1,9 +1,9 @@
-output "Cle_publique" {
+output "publique_key" {
   value     = module.ChildResources.pub
   sensitive = true
 }
 
-output "Cle_privee" {
+output "privee_key" {
     value   = module.ChildResources.private
     sensitive = true
 }
